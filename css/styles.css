@@ -170,11 +170,11 @@ a:hover {
 }
 
 a:not([href]):not([class]) {
-  color: inherit;
+  color: var(--blue);
   text-decoration: none;
 }
 a:not([href]):not([class]):hover {
-  color: inherit;
+  color: var(--blue);
   text-decoration: none;
 }
 
